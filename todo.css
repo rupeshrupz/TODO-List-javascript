@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anek+Malayalam&family=Charis+SIL:ital@1&family=Dancing+Script&family=Exo+2&family=Kdam+Thmor+Pro&family=Libre+Baskerville:wght@700&family=Open+Sans:wght@300&family=Oswald:wght@200;300;400;600&family=Pacifico&family=Permanent+Marker&family=Poppins&family=Raleway:wght@700&family=Source+Sans+Pro:wght@300&family=Stoke&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    /* background-color: #BA8C63; */
+    background-color: #f0dcc2;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: 'Caveat', cursive;
+}
+
+section
+{
+    background-color: #ffff;
+    width: 38%;
+    max-height: 1000px;
+    min-height: 361px;
+    position: relative;
+    left: 31%;
+    top: 12%;
+    border: solid 5px #41403E;
+    border-top-left-radius: 255px 5px;
+    border-top-right-radius: 5px 225px;
+    border-bottom-right-radius: 221px 11px;
+    border-bottom-left-radius: 9px 255px;
+}
+section > header {
+    background: #E3CA9C;
+    color: #1C3563;
+}
+section> header > h1{
+    text-align: center;
+    padding: 8px;
+    border-bottom: solid 5px #41403E;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    font-size: 51px;
+    letter-spacing: 7px;
+    color: #1C3563;
+    background: #BA8C63;
+}
+
+
+form .desc
+{
+    padding: 27px;
+    border-bottom: solid 1px #41403E;
+    border-bottom-right-radius: 207px 18px;
+    border-bottom-left-radius: 2px 246px;
+    position: relative;
+}
+
+.desc > label{
+    font-size: x-large;
+}
+.desc > input {
+    border: none;
+    position: relative;
+    left: 30px;
+    font-size: 19px;
+    background: #E3CA9C;
+    height: 33px;
+    font-family: 'Caveat', cursive;
+
+}
+
+.catdate
+{
+ display: flex;
+ position: relative;
+ border-bottom: solid 1px #41403E;
+ border-bottom-right-radius: 207px 18px;
+ border-bottom-left-radius: 2px 246px;
+}
+div > span {
+    border-left: 1px solid;
+    height: 80px;
+    position: relative;
+    left: -18px;
+}
+
+div .category
+{
+    padding: 26px;
+}
+
+div .date
+{
+    position: absolute;
+    left: 278px;
+    top: 26px;
+}
+
+section > main{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    padding: 17px;
+    background: #E5B09B;
+     border-top-right-radius: -1px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+}
+section > main > input{
+    width: 100px;
+    height: 60px;
+    font-size: 18px;
+    font-family: 'Caveat', cursive;
+    border:solid 1px #41403E;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    cursor: pointer;
+}
+
+.none
+{
+    display: none;
+}
+
+section > footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #E5B09B;
+    border:solid 1px #41403E;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px; */
+}
+footer > h1{
+    display: flex;
+    flex-direction: column;
+    padding-top: -15px;
+    gap: 24px;
+}
+footer > h1 > p{
+    position: relative;
+    top: -9px;
+    right: 29px;
+    background: #BA6391;
+    padding: 10px;
+    border:solid 1px #41403E;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+#todo
+{
+    position: relative; 
+}
+
+#todo > input[type = "checkbox"]{
+    position: relative;
+    left: 49px;
+
+}
+
+#todo > input[name = "read"]
+{
+    position: relative;
+    top: 5px;
+    left: 58px;
+    border: none;
+    font-size: xx-large;
+    font-family: inherit;
+    width: 272px;
+    outline: none;
+    background: blanchedalmond;
+    border-radius: 8px;
+}
+
+
+#todo > p{
+    position: relative;
+    left: 72px;
+    top: 0px;
+    padding-bottom: 15px;
+}
+
+
+main > #addIcon
+{
+    position: absolute;
+    left: 31px;
+    font-size: 20px;
+}
+main > #deleteIcon
+{
+    position: absolute;
+    left: 149px;
+    font-size: 19px;
+}
+main > #editIcon
+{
+    position: absolute;
+    left: 281px;
+    font-size: 19px;
+}
+main > #updateIcon
+{
+    position: absolute;
+    left: 403px;
+    font-size: 19px;
+}
+section > main > input[value = "Add"]
+{
+    font-size: 20px;
+    padding-left: 14px;
+    background-color: #63BA8C;
+}
+
+section > main > input[value = "Delete"]
+{
+    font-size: 20px;
+    padding-left: 25px;
+    background-color: rgb(236, 35, 35);
+}
+
+section > main > input[value = "Edit"]
+{
+    font-size: 20px;
+    padding-left: 25px;
+    background-color: gray;
+}
+
+section > main > input[value = "Update"]
+{
+    font-size: 20px;
+    padding-left: 25px;
+    background-color: skyblue;
+}
+
+
+.category > label 
+{
+    font-size: 20px;
+}
+
+.category > select
+{
+    width: 134px;
+    font-size: 19px;
+    font-family: 'Caveat', cursive;
+
+}
+
+.date > label{
+    font-size: 21px;
+}
+
+.date > input{
+    width: 126px;
+    height: 26px;
+    font-family: 'Caveat', cursive;
+
+}
+
+.enterValue{
+    color: red;
+    position: absolute;
+    top: 56px;
+    left: 217px;
+    display: none;
+
+}
+

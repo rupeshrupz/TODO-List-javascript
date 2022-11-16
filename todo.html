@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./todo.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>My To-Do List</h1>
+            <form action="">
+                <div class="desc">
+                <label for="">Description</label>
+                <input type="text" placeholder="what do you need to do?">
+                <p class="enterValue">enter some tasks!!!</p>
+             </div>
+                <div class="catdate">
+                <aside class="category">
+                    <label for="">Category</label>
+                    <select name="" id="selectOption">
+                        <option value="" class="none"></option>
+                        <option value="work" id="work">work</option>
+                        <option value="personal" id="personal">personal</option>
+                    </select>
+                </aside>
+                <span></span>
+                <aside class="date">
+                    <label for="">Due date</label>
+                    <input type="date" name="" id="">
+                </aside>
+                </div>
+               
+            </form>
+        </header>
+        
+        <main>
+            <i class="fa-solid fa-plus" id="addIcon"></i> <input type="submit" value="Add">
+            <i class="fa-solid fa-trash-can" id="deleteIcon"></i><input type="submit" value="Delete">
+            <i class="fa-regular fa-pen-to-square" id="editIcon"></i><input type="submit" value="Edit">
+            <i class="fa-solid fa-check-double" id="updateIcon"></i><input type="submit" value="Update">
+
+        </main>
+        <footer id="footer">
+            <form action="" id="todo">
+
+            </form>
+            <h1 id="h1">
+          
+            </h1>
+
+        </footer>
+    </section>
+    <script src="./todo.js"></script>
+</body>
+</html>
